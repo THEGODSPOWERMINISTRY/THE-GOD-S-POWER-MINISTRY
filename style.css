@@ -7,8 +7,6 @@ background:#f4f6fb;
 
 /* HERO SECTION */
 
-/* HERO SECTION */
-
 .hero{
 height:85vh;
 
@@ -63,19 +61,3 @@ background:#1d4ed8;
 transform:scale(1.05);
 }
 
-/* BUTTON */
-
-.btn{
-background:#2563eb;
-color:white;
-padding:12px 28px;
-text-decoration:none;
-border-radius:6px;
-font-size:18px;
-transition:0.3s;
-}
-
-.btn:hover{
-background:#1e40af;
-transform:scale(1.05);
-}
