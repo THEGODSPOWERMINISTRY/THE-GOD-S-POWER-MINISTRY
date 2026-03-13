@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery | The God's Power Ministry</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#f4f6fb;
+}
+
+/* HEADER */
+
+header{
+background:#1e3a8a;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+nav{
+background:#000;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-size:16px;
+}
+
+nav a:hover{
+color:#60a5fa;
+}
+
+/* GALLERY SECTION */
+
+.gallery-section{
+padding:50px 20px;
+text-align:center;
+}
+
+.gallery-section h2{
+font-size:32px;
+margin-bottom:30px;
+}
+
+/* GRID */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+max-width:1200px;
+margin:auto;
+}
+
+/* IMAGE CARD */
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+transition:0.4s;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#111;
+color:white;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>The God's Power Ministry</h1>
+<p>Betul, Madhya Pradesh, India</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="sermons.html">Sermons</a>
+<a href="events.html">Events</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section class="gallery-section">
+
+<h2>Ministry Gallery</h2>
+
+<div class="gallery">
+
+<img src="images/photo1.jpg">
+<img src="images/photo2.jpg">
+<img src="images/photo3.jpg">
+<img src="images/photo4.jpg">
+<img src="images/photo5.jpg">
+<img src="images/photo6.jpg">
+
+</div>
+
+</section>
+
+<footer>
+© 2026 The God's Power Ministry | tgpm.co.in
+</footer>
+
+</body>
+</html>
