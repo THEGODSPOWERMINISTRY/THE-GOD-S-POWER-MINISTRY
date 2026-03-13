@@ -7,28 +7,60 @@ background:#f4f6fb;
 
 /* HERO SECTION */
 
+/* HERO SECTION */
+
 .hero{
-height:80vh;
-background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-url("images/church.jpg");
+height:85vh;
+
+background:
+linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
+url("images/hero.jpg");
+
 background-size:cover;
 background-position:center;
 
 display:flex;
 justify-content:center;
 align-items:center;
+
 text-align:center;
 color:white;
 }
 
-.hero-content h1{
-font-size:48px;
-margin-bottom:10px;
+/* TEXT */
+
+.hero-text h1{
+font-size:70px;
+font-weight:bold;
+margin-bottom:20px;
 }
 
-.hero-content p{
-font-size:20px;
-margin-bottom:25px;
+.hero-text span{
+color:#facc15;
+}
+
+/* SUBTITLE */
+
+.hero-text p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+/* BUTTON */
+
+.hero-btn{
+background:#2563eb;
+padding:14px 30px;
+color:white;
+text-decoration:none;
+font-size:18px;
+border-radius:6px;
+transition:0.3s;
+}
+
+.hero-btn:hover{
+background:#1d4ed8;
+transform:scale(1.05);
 }
 
 /* BUTTON */
